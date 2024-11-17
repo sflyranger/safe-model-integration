@@ -1,10 +1,9 @@
 # Code Security Review Checklist for Loading External Models
 
-<img width="895" alt="image" src="https://github.com/user-attachments/assets/c364dd79-2cb9-45c2-b6eb-c944e86f8592">
-
 I've written this article for my own use and security as well as for those who are also finetuning LLMs from Hugging Face. Generally I just use command f and search through the .py files that will be executed during training but the info on autoscanning tools is just as effective if you are using them regularly in your workflows. 
 Happy Training!
 
+<img width="895" alt="image" src="https://github.com/user-attachments/assets/c364dd79-2cb9-45c2-b6eb-c944e86f8592">
 
 When using models with `trust_remote_code=True`, especially from third-party sources, it's crucial to ensure the code is safe. This flag allows custom Python code from the model repository to run on your system, which can pose significant security risks if not properly reviewed.
 
