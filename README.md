@@ -50,15 +50,6 @@ exec("command")
 
 **Why?** These functions can run arbitrary code, which may be hidden or obfuscated.
 
-### 4. Dynamic Code Execution
-Be extremely cautious with dynamic execution:
-
-```python
-eval("code")
-exec("command")
-```
-
-**Why?** These functions can run arbitrary code, which may be hidden or obfuscated.
 
 ### 5. Hidden or Obfuscated Code
 Look for unclear or obfuscated function names and variables:
